@@ -10,6 +10,7 @@ xtrabackup循环备份脚本，支持全量备份和增量备份。可设置循�
         |    |_ logs #增量备份日志 *.log
         |_ error.log #错误日志
 
+## 使用方法：
 ##### 全量备份
 ./xtrabackup_shell_script.sh -f
 
